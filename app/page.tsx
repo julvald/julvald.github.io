@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <main>
       <header className="site-header">
-        <a className="wordmark" href="#top" aria-label="返回首页"><span className="prompt">~/</span>YOUR_NAME</a>
+        <a className="wordmark" href="#top" aria-label="返回首页"><span className="prompt">~/</span>julvald.com</a>
         <nav aria-label="主导航"><a href="#work">项目</a><a href="#notes">文章</a><a href="#about">关于</a></nav>
         <a className="header-link" href="mailto:hello@example.com">联系我 ↗</a>
       </header>
@@ -27,7 +27,7 @@ export default function Home() {
           <div className="hero-actions"><a className="button primary" href="#work">查看项目 <span>↓</span></a><a className="button ghost" href="#notes">阅读笔记</a></div>
         </div>
         <div className="terminal" aria-label="个人状态终端">
-          <div className="terminal-bar"><div className="terminal-dots"><i /><i /><i /></div><span>guest@localhost:~</span></div>
+          <div className="terminal-bar"><div className="terminal-dots"><i /><i /><i /></div><span>julvald@home:~</span></div>
           <div className="terminal-body">
             <p><b>$</b> whoami</p><p className="output">engineer / builder / lifelong learner</p>
             <p><b>$</b> cat focus.txt</p><p className="output">systems, tools, open source</p>
@@ -68,7 +68,7 @@ export default function Home() {
       <footer id="contact">
         <div><p className="kicker">LET&apos;S TALK</p><h2>有值得解决的问题？</h2></div>
         <a className="contact-link" href="mailto:hello@example.com">hello@example.com <span>↗</span></a>
-        <div className="footer-bottom"><p>© 2026 YOUR_NAME · Built with restraint.</p><div><a href="#">GitHub</a><a href="#">LinkedIn</a><a href="#top">回到顶部 ↑</a></div></div>
+        <div className="footer-bottom"><p>© 2026 JULVALD · Built with restraint.</p><div><a href="#">GitHub</a><a href="#">LinkedIn</a><a href="#top">回到顶部 ↑</a></div></div>
       </footer>
     </main>
   );

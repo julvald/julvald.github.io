@@ -13,16 +13,17 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'YOUR_NAME — Engineer & Builder',
+  metadataBase: new URL('https://julvald.com'),
+  title: 'julvald.com — Engineer & Builder',
   description: '关注系统、开发工具与开放技术的个人网站。',
   openGraph: {
-    title: 'YOUR_NAME — Engineer & Builder',
+    title: 'julvald.com — Engineer & Builder',
     description: '关注系统、开发工具与开放技术的个人网站。',
     images: [{ url: '/og.png', width: 1536, height: 1024 }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'YOUR_NAME — Engineer & Builder',
+    title: 'julvald.com — Engineer & Builder',
     description: '关注系统、开发工具与开放技术的个人网站。',
     images: ['/og.png'],
   },
