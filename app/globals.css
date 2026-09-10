@@ -1,6 +1,6 @@
 @import 'tailwindcss';
 
-:root { --ink: #161814; --paper: #ecece5; --paper-2: #e2e3da; --muted: #696b63; --line: #c6c8be; --acid: #c8ff00; }
+:root { --ink: #161814; --paper: #ecece5; --paper-2: #e2e3da; --muted: #696b63; --line: #c6c8be; --acid: #c8ff00; --font-geist-sans: "Segoe UI", Arial, sans-serif; --font-geist-mono: "Cascadia Code", "SFMono-Regular", Consolas, monospace; }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--font-geist-sans), system-ui, sans-serif; -webkit-font-smoothing: antialiased; }

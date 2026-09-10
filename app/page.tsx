@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <main>
       <header className="site-header">
-        <a className="wordmark" href="#top" aria-label="返回首页"><span className="prompt">~/</span>julvald.com</a>
+        <a className="wordmark" href="#top" aria-label="返回首页"><span className="prompt">~/</span>JULVALD</a>
         <nav aria-label="主导航"><a href="#work">项目</a><a href="#notes">文章</a><a href="#about">关于</a></nav>
         <a className="header-link" href="mailto:hello@example.com">联系我 ↗</a>
       </header>
