@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://julvald.github.io'),
   title: 'JULVALD — Engineer & Builder',
   description: '关注系统、开发工具与开放技术的个人网站。',
+  icons: { icon: '/favicon.svg' },
   openGraph: {
     title: 'JULVALD — Engineer & Builder',
     description: '关注系统、开发工具与开放技术的个人网站。',
